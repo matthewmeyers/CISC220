@@ -1,0 +1,42 @@
+Matt Meyers Lab Section 040
+
+1. A data structure is a way of organizing data in a computer so that it can be used efficiently.  Data structures implement different abstract data types that specify which operations can be performed on the data structure.  Hash tables are used for database indexing and caches.  Trees are used for autocompletion and spell check.
+
+2.  Alan Turing was a British cryptographer, mathematician, and pioneer of computer science.  One of his major contributions was the Turing Test.  This test is used as a benchmark for testing artificial intelligence progression.  The test states that a computer can only be considered intelligent if it can hold a conversation and have the human interrogator not realize the computer is actually a computer.  Turing also reated the Turing Machine.  This is a hypothetical computing machine that can simulate any algorithm's logic.  Turing machines prove that there exists fundamental limitations on mechanical computations.
+
+Charles Babbage was a 19th century English mathematician and inventor.  Babbage first invented a Difference Engine in 1821 that was used to create mathematical tables which were normally created by hand.  Babbage then proposed an Analytical Engine that could compute any kind of calculation.  Unlike his difference engine, the analytical engine would manipulate symbols.  Babbage was never able to successfully create this analytical engine.  Another Difference Engine was created between 1985 and 1991 and used Babbage's original design.
+
+3.	One of the main advantages of compiled languages over interpreted languages is that programs compiled at compile time tend to be faster than programs translated at run time.  Additionally compiled languages tend to have more one-to-one correspondences between the written code and the hardware operations.  This means that programmers have more control over the CPU and memory.
+
+4.	Leighanne Hsu - lhsu@udel.edu
+
+5. 	int abs(x)-Returns the absolute values of x
+	div_t div(int numer, int denom)-Divides numer by denom
+	int rand(void)-returns a pseudo-random number between 0 and RAND_MAX
+	double atof(const char *str)-converst a string to a double
+	int atoi(const char *str)-converts a string to an int
+	long atol(const char *str)-converts a string to long
+
+6.	4
+	0x24e2d2
+	0x24e2d2
+	0x24e2e2
+	4
+	0x2634f4
+	0x24e2e2
+	0x24e2d2
+	4
+
+	*a and **z get changed because they point to the value held by the variable x.
+
+7. a) int x[5] = {3,4,7,1,5};
+   b) cout << &x[0] << endl;
+   c) cout << &x[2] << endl;
+   d) int *y = x;
+   e) cout << y[1] << endl;
+   f) cout << y << endl;
+   g) cout << &y << endl;
+   h) int z = 72;
+   i) y = &z;
+
+7b. The array B holds three pointers, all pointing to the first element of the array x.  Therefore, printing each element of B will print the same thing three times, the address of the first element of x.  Particularly, 0x28fedc will be printed three times. 

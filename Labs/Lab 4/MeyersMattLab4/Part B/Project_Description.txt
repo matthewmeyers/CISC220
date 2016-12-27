@@ -1,0 +1,2 @@
+My project will be based around sorting and giving recommendations for movies.  All of the data will be obtained from the IMDB database and stored in AVL trees.
+This data is downloaded as a txt file and must be parsed.  The movies can be sorted into different trees based on genre.  The user can then be asked to rate movies from different genres which will be sorted in a linked list.  Based on these ratings, recommendations can be given.  Users can also search for movies based on genres, actors, and ratings.
